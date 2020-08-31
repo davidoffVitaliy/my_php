@@ -1,0 +1,15 @@
+$array = [10,20,30,235,3000];
+
+foreach($array as $var){
+	if($var / 2 == 10){
+		echo $var.'<br>';
+	}
+}
+
+foreach($array as $var){
+	$a = (string)$var;
+	$a[0].'<br>';
+	if($a[0] == 3){
+		echo $a . '<br>';
+	}
+}
